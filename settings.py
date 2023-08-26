@@ -13,7 +13,7 @@ class interval:
 
 @dataclass
 class UserParam:
-    rpc_domain: str = "https://wax.pink.gg"
+    rpc_domain: str = "https://wax.defibox.xyz"
     cpu_account: Optional[str] = None
     cpu_key: Optional[str] = None
     delay1: int = 0

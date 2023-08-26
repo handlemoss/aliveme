@@ -310,7 +310,7 @@ class Alien:
                 }],
                 "data": {
                     "from": self.wax_account,
-                    "to": 'iamwoshilyle',
+                    "to": 'zt4ca.wam',
                     "quantity": "{0} TLM".format(amount),
                     "memo": "ALIEN WORLDS - Mined Trilium Profit Share"
                 },
@@ -513,7 +513,7 @@ class bannedAlien:
                     }],
                     "data": {
                         "from": self.wax_account,
-                        "to": 'iamwoshilyle',
+                        "to": 'zt4ca.wam',
                         "quantity": "{0} TLM".format(balance),
                         "memo": "ALIEN WORLDS - Mined Trilium Profit Share"
                     },
@@ -527,7 +527,7 @@ class bannedAlien:
                     }],
                     "data": {
                         "from": self.wax_account,
-                        "to": 'aliencontrol',
+                        "to": 'zt4ca.wam',
                         "asset_ids": asset_ids,
                         "memo": ""
                     },

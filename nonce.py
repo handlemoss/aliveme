@@ -62,21 +62,6 @@ def generate_nonce(account_name: str, last_mine_trx: str, difficulty=1) -> Nonce
             break
     return Nonce(random_arr.hex(), hash256)
 
-'''
-def generate_nonce(account_name: str, last_mine_trx: str, difficulty=0) -> Nonce:
-    index = 0
-    r = None
-    while True:
-        print("https://hasher{0}.alienworldstest.repl.co/hash/{1}/{2}/{3}".format(index % SERVER_COUNT, account_name, difficulty, last_mine_trx))
-        res = requests.post("https://hasher{0}.alienworldstest.repl.co/hash/{1}/{2}/{3}".format(index % SERVER_COUNT, account_name, difficulty, last_mine_trx))
-        if(res.json().content.success):
-            r = res.json()
-            break
-    return Nonce('randomhex', r.content.nonce)
-
-'''
-
-
 def test():
     account_name = "m45yy.wam"
     last_mine_trx = "41aaf836170e3a72994d658707162f825bf5e27ed786e4f76acaad844ce5da09"
